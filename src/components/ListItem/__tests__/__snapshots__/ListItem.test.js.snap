@@ -1,0 +1,723 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItem /> should render <ListItem /> 1`] = `
+ListItem {
+  "_reactInternalFiber": FiberNode {
+    "_debugID": 4,
+    "_debugIsCurrentlyTiming": false,
+    "_debugOwner": null,
+    "_debugSource": Object {
+      "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/__tests__/ListItem.test.js",
+      "lineNumber": 9,
+    },
+    "alternate": null,
+    "child": FiberNode {
+      "_debugID": 5,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": [Circular],
+      "_debugSource": Object {
+        "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+        "lineNumber": 10,
+      },
+      "alternate": null,
+      "child": FiberNode {
+        "_debugID": 6,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": [Circular],
+        "_debugSource": Object {
+          "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+          "lineNumber": 11,
+        },
+        "alternate": null,
+        "child": FiberNode {
+          "_debugID": 8,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+            "lineNumber": 12,
+          },
+          "alternate": null,
+          "child": null,
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "alt": "url",
+            "src": "avatarUrl",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "alt": "url",
+            "src": "avatarUrl",
+          },
+          "ref": null,
+          "return": [Circular],
+          "sibling": null,
+          "stateNode": <img
+            src="avatarUrl"
+            alt="url"
+/>,
+          "tag": 5,
+          "type": "img",
+          "updateQueue": null,
+        },
+        "effectTag": 0,
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "children": <img
+            alt="url"
+            src="avatarUrl"
+/>,
+          "className": "ListImage",
+          "href": "url",
+        },
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "children": <img
+            alt="url"
+            src="avatarUrl"
+/>,
+          "className": "ListImage",
+          "href": "url",
+        },
+        "ref": null,
+        "return": [Circular],
+        "sibling": FiberNode {
+          "_debugID": 7,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+            "lineNumber": 14,
+          },
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 9,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+              "lineNumber": 15,
+            },
+            "alternate": null,
+            "child": null,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": "Issue title",
+              "className": "ListTitle",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": "Issue title",
+              "className": "ListTitle",
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": FiberNode {
+              "_debugID": 10,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+                "lineNumber": 16,
+              },
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+                "className": "ListText",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+                "className": "ListText",
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": FiberNode {
+                "_debugID": 11,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+                  "lineNumber": 17,
+                },
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 2,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Today at 11:07 AM",
+                  "className": "ListDate",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "Today at 11:07 AM",
+                  "className": "ListDate",
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": null,
+                "stateNode": <div
+                  class="ListDate"
+>
+                  Today at 11:07 AM
+</div>,
+                "tag": 5,
+                "type": "div",
+                "updateQueue": null,
+              },
+              "stateNode": <div
+                class="ListText"
+>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+</div>,
+              "tag": 5,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "stateNode": <h2
+              class="ListTitle"
+>
+              Issue title
+</h2>,
+            "tag": 5,
+            "type": "h2",
+            "updateQueue": null,
+          },
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 1,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              <h2
+                className="ListTitle"
+>
+                Issue title
+</h2>,
+              <div
+                className="ListText"
+>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+</div>,
+              <div
+                className="ListDate"
+>
+                Today at 11:07 AM
+</div>,
+            ],
+            "className": "ListContent",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": Array [
+              <h2
+                className="ListTitle"
+>
+                Issue title
+</h2>,
+              <div
+                className="ListText"
+>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+</div>,
+              <div
+                className="ListDate"
+>
+                Today at 11:07 AM
+</div>,
+            ],
+            "className": "ListContent",
+          },
+          "ref": null,
+          "return": [Circular],
+          "sibling": null,
+          "stateNode": <div
+            class="ListContent"
+>
+            <h2
+                        class="ListTitle"
+            >
+                        Issue title
+            </h2>
+            <div
+                        class="ListText"
+            >
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+            </div>
+            <div
+                        class="ListDate"
+            >
+                        Today at 11:07 AM
+            </div>
+</div>,
+          "tag": 5,
+          "type": "div",
+          "updateQueue": null,
+        },
+        "stateNode": <a
+          href="url"
+          class="ListImage"
+>
+          <img
+                    src="avatarUrl"
+                    alt="url"
+          />
+</a>,
+        "tag": 5,
+        "type": "a",
+        "updateQueue": null,
+      },
+      "effectTag": 0,
+      "expirationTime": 0,
+      "firstEffect": null,
+      "index": 0,
+      "key": null,
+      "lastEffect": null,
+      "memoizedProps": Object {
+        "children": Array [
+          <a
+            className="ListImage"
+            href="url"
+>
+            <img
+                        alt="url"
+                        src="avatarUrl"
+            />
+</a>,
+          <div
+            className="ListContent"
+>
+            <h2
+                        className="ListTitle"
+            >
+                        Issue title
+            </h2>
+            <div
+                        className="ListText"
+            >
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+            </div>
+            <div
+                        className="ListDate"
+            >
+                        Today at 11:07 AM
+            </div>
+</div>,
+        ],
+        "className": "ListItem",
+      },
+      "memoizedState": null,
+      "mode": 0,
+      "nextEffect": null,
+      "pendingProps": Object {
+        "children": Array [
+          <a
+            className="ListImage"
+            href="url"
+>
+            <img
+                        alt="url"
+                        src="avatarUrl"
+            />
+</a>,
+          <div
+            className="ListContent"
+>
+            <h2
+                        className="ListTitle"
+            >
+                        Issue title
+            </h2>
+            <div
+                        className="ListText"
+            >
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+            </div>
+            <div
+                        className="ListDate"
+            >
+                        Today at 11:07 AM
+            </div>
+</div>,
+        ],
+        "className": "ListItem",
+      },
+      "ref": null,
+      "return": [Circular],
+      "sibling": null,
+      "stateNode": <div
+        class="ListItem"
+>
+        <a
+                href="url"
+                class="ListImage"
+        >
+                <img
+                        src="avatarUrl"
+                        alt="url"
+                />
+        </a>
+        <div
+                class="ListContent"
+        >
+                <h2
+                        class="ListTitle"
+                >
+                        Issue title
+                </h2>
+                <div
+                        class="ListText"
+                >
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                </div>
+                <div
+                        class="ListDate"
+                >
+                        Today at 11:07 AM
+                </div>
+        </div>
+</div>,
+      "tag": 5,
+      "type": "div",
+      "updateQueue": null,
+    },
+    "effectTag": 1,
+    "expirationTime": 0,
+    "firstEffect": null,
+    "index": 0,
+    "key": null,
+    "lastEffect": null,
+    "memoizedProps": Object {
+      "issue": Object {
+        "author": Object {
+          "avatarUrl": "avatarUrl",
+          "url": "url",
+        },
+        "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "createdAt": "2018-05-19T09:07:23Z",
+        "id": "issueID",
+        "title": "Issue title",
+      },
+    },
+    "memoizedState": null,
+    "mode": 0,
+    "nextEffect": null,
+    "pendingProps": Object {
+      "issue": Object {
+        "author": Object {
+          "avatarUrl": "avatarUrl",
+          "url": "url",
+        },
+        "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "createdAt": "2018-05-19T09:07:23Z",
+        "id": "issueID",
+        "title": "Issue title",
+      },
+    },
+    "ref": null,
+    "return": FiberNode {
+      "_debugID": 1,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": null,
+      "_debugSource": null,
+      "alternate": FiberNode {
+        "_debugID": 1,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "alternate": [Circular],
+        "child": null,
+        "effectTag": 0,
+        "expirationTime": 1,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": null,
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": <div>
+            <div
+                        class="ListItem"
+            >
+                        <a
+                                    href="url"
+                                    class="ListImage"
+                        >
+                                    <img
+                                                src="avatarUrl"
+                                                alt="url"
+                                    />
+                        </a>
+                        <div
+                                    class="ListContent"
+                        >
+                                    <h2
+                                                class="ListTitle"
+                                    >
+                                                Issue title
+                                    </h2>
+                                    <div
+                                                class="ListText"
+                                    >
+                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                    </div>
+                                    <div
+                                                class="ListDate"
+                                    >
+                                                Today at 11:07 AM
+                                    </div>
+                        </div>
+            </div>
+</div>,
+          "context": Object {},
+          "current": [Circular],
+          "finishedWork": null,
+          "firstBatch": null,
+          "hydrate": false,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingCommitExpirationTime": 0,
+          "pendingContext": null,
+          "remainingExpirationTime": 0,
+        },
+        "tag": 3,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": null,
+          "callbackList": null,
+          "capturedValues": null,
+          "expirationTime": 1,
+          "first": Object {
+            "callback": null,
+            "capturedValue": null,
+            "expirationTime": 1,
+            "isForced": false,
+            "isReplace": false,
+            "next": null,
+            "partialState": Object {
+              "element": <ListItem
+                issue={
+                                Object {
+                                                "author": Object {
+                                                  "avatarUrl": "avatarUrl",
+                                                  "url": "url",
+                                                },
+                                                "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+                                                "createdAt": "2018-05-19T09:07:23Z",
+                                                "id": "issueID",
+                                                "title": "Issue title",
+                                              }
+                }
+/>,
+            },
+          },
+          "hasForceUpdate": false,
+          "isInitialized": false,
+          "isProcessing": false,
+          "last": Object {
+            "callback": null,
+            "capturedValue": null,
+            "expirationTime": 1,
+            "isForced": false,
+            "isReplace": false,
+            "next": null,
+            "partialState": Object {
+              "element": <ListItem
+                issue={
+                                Object {
+                                                "author": Object {
+                                                  "avatarUrl": "avatarUrl",
+                                                  "url": "url",
+                                                },
+                                                "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+                                                "createdAt": "2018-05-19T09:07:23Z",
+                                                "id": "issueID",
+                                                "title": "Issue title",
+                                              }
+                }
+/>,
+            },
+          },
+        },
+      },
+      "child": [Circular],
+      "effectTag": 32,
+      "expirationTime": 0,
+      "firstEffect": [Circular],
+      "index": 0,
+      "key": null,
+      "lastEffect": [Circular],
+      "memoizedProps": null,
+      "memoizedState": Object {
+        "element": <ListItem
+          issue={
+                    Object {
+                              "author": Object {
+                                "avatarUrl": "avatarUrl",
+                                "url": "url",
+                              },
+                              "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+                              "createdAt": "2018-05-19T09:07:23Z",
+                              "id": "issueID",
+                              "title": "Issue title",
+                            }
+          }
+/>,
+      },
+      "mode": 0,
+      "nextEffect": null,
+      "pendingProps": null,
+      "ref": null,
+      "return": null,
+      "sibling": null,
+      "stateNode": Object {
+        "containerInfo": <div>
+          <div
+                    class="ListItem"
+          >
+                    <a
+                              href="url"
+                              class="ListImage"
+                    >
+                              <img
+                                        src="avatarUrl"
+                                        alt="url"
+                              />
+                    </a>
+                    <div
+                              class="ListContent"
+                    >
+                              <h2
+                                        class="ListTitle"
+                              >
+                                        Issue title
+                              </h2>
+                              <div
+                                        class="ListText"
+                              >
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                              </div>
+                              <div
+                                        class="ListDate"
+                              >
+                                        Today at 11:07 AM
+                              </div>
+                    </div>
+          </div>
+</div>,
+        "context": Object {},
+        "current": [Circular],
+        "finishedWork": null,
+        "firstBatch": null,
+        "hydrate": false,
+        "nextScheduledRoot": null,
+        "pendingChildren": null,
+        "pendingCommitExpirationTime": 0,
+        "pendingContext": null,
+        "remainingExpirationTime": 0,
+      },
+      "tag": 3,
+      "type": null,
+      "updateQueue": Object {
+        "baseState": Object {
+          "element": <ListItem
+            issue={
+                        Object {
+                                    "author": Object {
+                                      "avatarUrl": "avatarUrl",
+                                      "url": "url",
+                                    },
+                                    "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+                                    "createdAt": "2018-05-19T09:07:23Z",
+                                    "id": "issueID",
+                                    "title": "Issue title",
+                                  }
+            }
+/>,
+        },
+        "callbackList": null,
+        "capturedValues": null,
+        "expirationTime": 0,
+        "first": null,
+        "hasForceUpdate": false,
+        "isInitialized": true,
+        "isProcessing": false,
+        "last": null,
+      },
+    },
+    "sibling": null,
+    "stateNode": [Circular],
+    "tag": 2,
+    "type": [Function],
+    "updateQueue": null,
+  },
+  "_reactInternalInstance": Object {},
+  "context": Object {},
+  "props": Object {
+    "issue": Object {
+      "author": Object {
+        "avatarUrl": "avatarUrl",
+        "url": "url",
+      },
+      "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "createdAt": "2018-05-19T09:07:23Z",
+      "id": "issueID",
+      "title": "Issue title",
+    },
+  },
+  "refs": Object {},
+  "state": null,
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;

@@ -1,0 +1,27 @@
+.ListItem {
+  flex-direction: row;
+  display: flex;
+}
+.ListImage {
+  width: 20%;
+  display: block;
+}
+
+.ListImage img {
+  max-width: 100%;
+}
+
+.ListContent {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+  width: 80%;
+}
+
+.ListTitle {
+  font-size: 1em;
+}
+
+.ListDate {
+  margin: 1em 0;
+}
