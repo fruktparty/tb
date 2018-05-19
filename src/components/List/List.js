@@ -25,6 +25,10 @@ class List extends Component {
                     author {
                       avatarUrl
                       url
+                      login
+                      ... on User {
+                        name
+                      }
                     }
                   }
                 }

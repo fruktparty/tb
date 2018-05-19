@@ -1,27 +1,123 @@
 .ListItem {
+  flex-direction: column;
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 4px;
+  color: #3f3f3f;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.05),
+    0 3px 14px 3px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2em;
+}
+
+.ListHeader {
   flex-direction: row;
   display: flex;
+  align-items: center;
+  padding: 2em;
 }
+
 .ListImage {
-  width: 20%;
+  width: 70px;
   display: block;
+  border-radius: 50%;
+}
+
+.ListAuthor {
+  color: #6e9688;
+  margin: 0 2em;
+}
+
+.ListLogin {
+  font-size: 1.75em;
+}
+
+.ListAuthorName {
+  font-size: 1em;
 }
 
 .ListImage img {
   max-width: 100%;
+  border-radius: 50%;
+}
+
+.ListText {
+  margin: 1em 0;
 }
 
 .ListContent {
   display: flex;
   flex-direction: column;
-  padding: 0 1em;
-  width: 80%;
+  padding: 0em 2em 2em 2em;
 }
 
 .ListTitle {
-  font-size: 1em;
+  font-size: 1.75em;
+  letter-spacing: 0.69px;
+  margin: 0 0 0.5em 0;
 }
 
 .ListDate {
   margin: 1em 0;
+  margin-left: auto;
+  color: #6bb197;
+  background: #e9f7f5;
+  padding: 2px 6px;
+  align-self: flex-start;
+  border-radius: 3px;
+}
+
+.ListRepoLink {
+  color: #ffffff;
+  background: #dc7495;
+  padding: 8px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  width: 148px;
+  height: 38px;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.ListRepoLink:hover {
+  background: #e28ca7;
+}
+
+@media all and (max-width: 530px) {
+  .ListHeader {
+    padding: 1.25em;
+  }
+
+  .ListImage {
+    width: 44px;
+  }
+
+  .ListAuthor {
+    color: #6e9688;
+    margin: 0 1.25em;
+  }
+
+  .ListLogin {
+    font-size: 1.25em;
+  }
+
+  .ListAuthorName {
+    font-size: 0.75em;
+  }
+
+  .ListDate {
+    font-size: 0.75em;
+  }
+
+  .ListContent {
+    padding: 0em 1.25em 1.25em 1.25em;
+  }
+
+  .ListTitle {
+    font-size: 1.25em;
+  }
+
+  .ListText {
+    margin: 0.5em 0;
+  }
 }

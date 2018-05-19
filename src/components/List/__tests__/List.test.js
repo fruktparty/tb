@@ -29,20 +29,30 @@ const data = {
         bodyText:
           "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
         createdAt: "2018-05-19T09:07:23Z",
+        repository: {
+          url: "repoUrl"
+        },
         author: {
           url: "url",
-          avatarUrl: "avatarUrl"
+          avatarUrl: "avatarUrl",
+          login: "username",
+          name: "name"
         }
       },
       {
-        id: "issueID2",
+        id: "issueID",
         title: "Issue title",
         bodyText:
           "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
         createdAt: "2018-05-19T09:07:23Z",
+        repository: {
+          url: "repoUrl"
+        },
         author: {
           url: "url",
-          avatarUrl: "avatarUrl"
+          avatarUrl: "avatarUrl",
+          login: "username",
+          name: "name"
         }
       }
     ]

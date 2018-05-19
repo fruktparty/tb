@@ -1,6 +1,1014 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<ListItem /> should render <ListItem /> 1`] = `
+exports[`<ListItem /> should render <ListItem /> with base data 1`] = `
+ListItem {
+  "_reactInternalFiber": FiberNode {
+    "_debugID": 19,
+    "_debugIsCurrentlyTiming": false,
+    "_debugOwner": null,
+    "_debugSource": Object {
+      "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/__tests__/ListItem.test.js",
+      "lineNumber": 35,
+    },
+    "alternate": null,
+    "child": FiberNode {
+      "_debugID": 20,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": [Circular],
+      "_debugSource": Object {
+        "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+        "lineNumber": 10,
+      },
+      "alternate": null,
+      "child": FiberNode {
+        "_debugID": 21,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": [Circular],
+        "_debugSource": Object {
+          "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+          "lineNumber": 11,
+        },
+        "alternate": null,
+        "child": FiberNode {
+          "_debugID": 23,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+            "lineNumber": 12,
+          },
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 26,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+              "lineNumber": 13,
+            },
+            "alternate": null,
+            "child": null,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "alt": "url",
+              "src": "avatarUrl",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "alt": "url",
+              "src": "avatarUrl",
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": null,
+            "stateNode": <img
+              src="avatarUrl"
+              alt="url"
+/>,
+            "tag": 5,
+            "type": "img",
+            "updateQueue": null,
+          },
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": <img
+              alt="url"
+              src="avatarUrl"
+/>,
+            "className": "ListImage",
+            "href": "url",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": <img
+              alt="url"
+              src="avatarUrl"
+/>,
+            "className": "ListImage",
+            "href": "url",
+          },
+          "ref": null,
+          "return": [Circular],
+          "sibling": FiberNode {
+            "_debugID": 24,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+              "lineNumber": 15,
+            },
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 27,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+                "lineNumber": 16,
+              },
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "username",
+                "className": "ListLogin",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "username",
+                "className": "ListLogin",
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": null,
+              "stateNode": <div
+                class="ListLogin"
+>
+                username
+</div>,
+              "tag": 5,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 1,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <div
+                  className="ListLogin"
+>
+                  username
+</div>,
+                undefined,
+              ],
+              "className": "ListAuthor",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                <div
+                  className="ListLogin"
+>
+                  username
+</div>,
+                undefined,
+              ],
+              "className": "ListAuthor",
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": FiberNode {
+              "_debugID": 25,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+                "lineNumber": 21,
+              },
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 2,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "Today at 11:07 AM",
+                "className": "ListDate",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "Today at 11:07 AM",
+                "className": "ListDate",
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": null,
+              "stateNode": <div
+                class="ListDate"
+>
+                Today at 11:07 AM
+</div>,
+              "tag": 5,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "stateNode": <div
+              class="ListAuthor"
+>
+              <div
+                            class="ListLogin"
+              >
+                            username
+              </div>
+</div>,
+            "tag": 5,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "stateNode": <a
+            href="url"
+            class="ListImage"
+>
+            <img
+                        src="avatarUrl"
+                        alt="url"
+            />
+</a>,
+          "tag": 5,
+          "type": "a",
+          "updateQueue": null,
+        },
+        "effectTag": 0,
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "children": Array [
+            <a
+              className="ListImage"
+              href="url"
+>
+              <img
+                            alt="url"
+                            src="avatarUrl"
+              />
+</a>,
+            <div
+              className="ListAuthor"
+>
+              <div
+                            className="ListLogin"
+              >
+                            username
+              </div>
+</div>,
+            <div
+              className="ListDate"
+>
+              Today at 11:07 AM
+</div>,
+          ],
+          "className": "ListHeader",
+        },
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "children": Array [
+            <a
+              className="ListImage"
+              href="url"
+>
+              <img
+                            alt="url"
+                            src="avatarUrl"
+              />
+</a>,
+            <div
+              className="ListAuthor"
+>
+              <div
+                            className="ListLogin"
+              >
+                            username
+              </div>
+</div>,
+            <div
+              className="ListDate"
+>
+              Today at 11:07 AM
+</div>,
+          ],
+          "className": "ListHeader",
+        },
+        "ref": null,
+        "return": [Circular],
+        "sibling": FiberNode {
+          "_debugID": 22,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+            "lineNumber": 23,
+          },
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 28,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+              "lineNumber": 24,
+            },
+            "alternate": null,
+            "child": null,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": "Issue title",
+              "className": "ListTitle",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": "Issue title",
+              "className": "ListTitle",
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": FiberNode {
+              "_debugID": 29,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+                "lineNumber": 26,
+              },
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 2,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "View repository",
+                "className": "ListRepoLink",
+                "href": "repoUrl",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "View repository",
+                "className": "ListRepoLink",
+                "href": "repoUrl",
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": null,
+              "stateNode": <a
+                href="repoUrl"
+                class="ListRepoLink"
+>
+                View repository
+</a>,
+              "tag": 5,
+              "type": "a",
+              "updateQueue": null,
+            },
+            "stateNode": <h2
+              class="ListTitle"
+>
+              Issue title
+</h2>,
+            "tag": 5,
+            "type": "h2",
+            "updateQueue": null,
+          },
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 1,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              <h2
+                className="ListTitle"
+>
+                Issue title
+</h2>,
+              undefined,
+              <a
+                className="ListRepoLink"
+                href="repoUrl"
+>
+                View repository
+</a>,
+            ],
+            "className": "ListContent",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": Array [
+              <h2
+                className="ListTitle"
+>
+                Issue title
+</h2>,
+              undefined,
+              <a
+                className="ListRepoLink"
+                href="repoUrl"
+>
+                View repository
+</a>,
+            ],
+            "className": "ListContent",
+          },
+          "ref": null,
+          "return": [Circular],
+          "sibling": null,
+          "stateNode": <div
+            class="ListContent"
+>
+            <h2
+                        class="ListTitle"
+            >
+                        Issue title
+            </h2>
+            <a
+                        href="repoUrl"
+                        class="ListRepoLink"
+            >
+                        View repository
+            </a>
+</div>,
+          "tag": 5,
+          "type": "div",
+          "updateQueue": null,
+        },
+        "stateNode": <div
+          class="ListHeader"
+>
+          <a
+                    href="url"
+                    class="ListImage"
+          >
+                    <img
+                              src="avatarUrl"
+                              alt="url"
+                    />
+          </a>
+          <div
+                    class="ListAuthor"
+          >
+                    <div
+                              class="ListLogin"
+                    >
+                              username
+                    </div>
+          </div>
+          <div
+                    class="ListDate"
+          >
+                    Today at 11:07 AM
+          </div>
+</div>,
+        "tag": 5,
+        "type": "div",
+        "updateQueue": null,
+      },
+      "effectTag": 0,
+      "expirationTime": 0,
+      "firstEffect": null,
+      "index": 0,
+      "key": null,
+      "lastEffect": null,
+      "memoizedProps": Object {
+        "children": Array [
+          <div
+            className="ListHeader"
+>
+            <a
+                        className="ListImage"
+                        href="url"
+            >
+                        <img
+                                    alt="url"
+                                    src="avatarUrl"
+                        />
+            </a>
+            <div
+                        className="ListAuthor"
+            >
+                        <div
+                                    className="ListLogin"
+                        >
+                                    username
+                        </div>
+            </div>
+            <div
+                        className="ListDate"
+            >
+                        Today at 11:07 AM
+            </div>
+</div>,
+          <div
+            className="ListContent"
+>
+            <h2
+                        className="ListTitle"
+            >
+                        Issue title
+            </h2>
+            <a
+                        className="ListRepoLink"
+                        href="repoUrl"
+            >
+                        View repository
+            </a>
+</div>,
+        ],
+        "className": "ListItem",
+      },
+      "memoizedState": null,
+      "mode": 0,
+      "nextEffect": null,
+      "pendingProps": Object {
+        "children": Array [
+          <div
+            className="ListHeader"
+>
+            <a
+                        className="ListImage"
+                        href="url"
+            >
+                        <img
+                                    alt="url"
+                                    src="avatarUrl"
+                        />
+            </a>
+            <div
+                        className="ListAuthor"
+            >
+                        <div
+                                    className="ListLogin"
+                        >
+                                    username
+                        </div>
+            </div>
+            <div
+                        className="ListDate"
+            >
+                        Today at 11:07 AM
+            </div>
+</div>,
+          <div
+            className="ListContent"
+>
+            <h2
+                        className="ListTitle"
+            >
+                        Issue title
+            </h2>
+            <a
+                        className="ListRepoLink"
+                        href="repoUrl"
+            >
+                        View repository
+            </a>
+</div>,
+        ],
+        "className": "ListItem",
+      },
+      "ref": null,
+      "return": [Circular],
+      "sibling": null,
+      "stateNode": <div
+        class="ListItem"
+>
+        <div
+                class="ListHeader"
+        >
+                <a
+                        href="url"
+                        class="ListImage"
+                >
+                        <img
+                                src="avatarUrl"
+                                alt="url"
+                        />
+                </a>
+                <div
+                        class="ListAuthor"
+                >
+                        <div
+                                class="ListLogin"
+                        >
+                                username
+                        </div>
+                </div>
+                <div
+                        class="ListDate"
+                >
+                        Today at 11:07 AM
+                </div>
+        </div>
+        <div
+                class="ListContent"
+        >
+                <h2
+                        class="ListTitle"
+                >
+                        Issue title
+                </h2>
+                <a
+                        href="repoUrl"
+                        class="ListRepoLink"
+                >
+                        View repository
+                </a>
+        </div>
+</div>,
+      "tag": 5,
+      "type": "div",
+      "updateQueue": null,
+    },
+    "effectTag": 1,
+    "expirationTime": 0,
+    "firstEffect": null,
+    "index": 0,
+    "key": null,
+    "lastEffect": null,
+    "memoizedProps": Object {
+      "issue": Object {
+        "author": Object {
+          "avatarUrl": "avatarUrl",
+          "login": "username",
+          "url": "url",
+        },
+        "createdAt": "2018-05-19T09:07:23Z",
+        "id": "issueID",
+        "repository": Object {
+          "url": "repoUrl",
+        },
+        "title": "Issue title",
+      },
+    },
+    "memoizedState": null,
+    "mode": 0,
+    "nextEffect": null,
+    "pendingProps": Object {
+      "issue": Object {
+        "author": Object {
+          "avatarUrl": "avatarUrl",
+          "login": "username",
+          "url": "url",
+        },
+        "createdAt": "2018-05-19T09:07:23Z",
+        "id": "issueID",
+        "repository": Object {
+          "url": "repoUrl",
+        },
+        "title": "Issue title",
+      },
+    },
+    "ref": null,
+    "return": FiberNode {
+      "_debugID": 17,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": null,
+      "_debugSource": null,
+      "alternate": FiberNode {
+        "_debugID": 17,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "alternate": [Circular],
+        "child": null,
+        "effectTag": 0,
+        "expirationTime": 1,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": null,
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": <div>
+            <div
+                        class="ListItem"
+            >
+                        <div
+                                    class="ListHeader"
+                        >
+                                    <a
+                                                href="url"
+                                                class="ListImage"
+                                    >
+                                                <img
+                                                            src="avatarUrl"
+                                                            alt="url"
+                                                />
+                                    </a>
+                                    <div
+                                                class="ListAuthor"
+                                    >
+                                                <div
+                                                            class="ListLogin"
+                                                >
+                                                            username
+                                                </div>
+                                    </div>
+                                    <div
+                                                class="ListDate"
+                                    >
+                                                Today at 11:07 AM
+                                    </div>
+                        </div>
+                        <div
+                                    class="ListContent"
+                        >
+                                    <h2
+                                                class="ListTitle"
+                                    >
+                                                Issue title
+                                    </h2>
+                                    <a
+                                                href="repoUrl"
+                                                class="ListRepoLink"
+                                    >
+                                                View repository
+                                    </a>
+                        </div>
+            </div>
+</div>,
+          "context": Object {},
+          "current": [Circular],
+          "finishedWork": null,
+          "firstBatch": null,
+          "hydrate": false,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingCommitExpirationTime": 0,
+          "pendingContext": null,
+          "remainingExpirationTime": 0,
+        },
+        "tag": 3,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": null,
+          "callbackList": null,
+          "capturedValues": null,
+          "expirationTime": 1,
+          "first": Object {
+            "callback": null,
+            "capturedValue": null,
+            "expirationTime": 1,
+            "isForced": false,
+            "isReplace": false,
+            "next": null,
+            "partialState": Object {
+              "element": <ListItem
+                issue={
+                                Object {
+                                                "author": Object {
+                                                  "avatarUrl": "avatarUrl",
+                                                  "login": "username",
+                                                  "url": "url",
+                                                },
+                                                "createdAt": "2018-05-19T09:07:23Z",
+                                                "id": "issueID",
+                                                "repository": Object {
+                                                  "url": "repoUrl",
+                                                },
+                                                "title": "Issue title",
+                                              }
+                }
+/>,
+            },
+          },
+          "hasForceUpdate": false,
+          "isInitialized": false,
+          "isProcessing": false,
+          "last": Object {
+            "callback": null,
+            "capturedValue": null,
+            "expirationTime": 1,
+            "isForced": false,
+            "isReplace": false,
+            "next": null,
+            "partialState": Object {
+              "element": <ListItem
+                issue={
+                                Object {
+                                                "author": Object {
+                                                  "avatarUrl": "avatarUrl",
+                                                  "login": "username",
+                                                  "url": "url",
+                                                },
+                                                "createdAt": "2018-05-19T09:07:23Z",
+                                                "id": "issueID",
+                                                "repository": Object {
+                                                  "url": "repoUrl",
+                                                },
+                                                "title": "Issue title",
+                                              }
+                }
+/>,
+            },
+          },
+        },
+      },
+      "child": [Circular],
+      "effectTag": 32,
+      "expirationTime": 0,
+      "firstEffect": [Circular],
+      "index": 0,
+      "key": null,
+      "lastEffect": [Circular],
+      "memoizedProps": null,
+      "memoizedState": Object {
+        "element": <ListItem
+          issue={
+                    Object {
+                              "author": Object {
+                                "avatarUrl": "avatarUrl",
+                                "login": "username",
+                                "url": "url",
+                              },
+                              "createdAt": "2018-05-19T09:07:23Z",
+                              "id": "issueID",
+                              "repository": Object {
+                                "url": "repoUrl",
+                              },
+                              "title": "Issue title",
+                            }
+          }
+/>,
+      },
+      "mode": 0,
+      "nextEffect": null,
+      "pendingProps": null,
+      "ref": null,
+      "return": null,
+      "sibling": null,
+      "stateNode": Object {
+        "containerInfo": <div>
+          <div
+                    class="ListItem"
+          >
+                    <div
+                              class="ListHeader"
+                    >
+                              <a
+                                        href="url"
+                                        class="ListImage"
+                              >
+                                        <img
+                                                  src="avatarUrl"
+                                                  alt="url"
+                                        />
+                              </a>
+                              <div
+                                        class="ListAuthor"
+                              >
+                                        <div
+                                                  class="ListLogin"
+                                        >
+                                                  username
+                                        </div>
+                              </div>
+                              <div
+                                        class="ListDate"
+                              >
+                                        Today at 11:07 AM
+                              </div>
+                    </div>
+                    <div
+                              class="ListContent"
+                    >
+                              <h2
+                                        class="ListTitle"
+                              >
+                                        Issue title
+                              </h2>
+                              <a
+                                        href="repoUrl"
+                                        class="ListRepoLink"
+                              >
+                                        View repository
+                              </a>
+                    </div>
+          </div>
+</div>,
+        "context": Object {},
+        "current": [Circular],
+        "finishedWork": null,
+        "firstBatch": null,
+        "hydrate": false,
+        "nextScheduledRoot": null,
+        "pendingChildren": null,
+        "pendingCommitExpirationTime": 0,
+        "pendingContext": null,
+        "remainingExpirationTime": 0,
+      },
+      "tag": 3,
+      "type": null,
+      "updateQueue": Object {
+        "baseState": Object {
+          "element": <ListItem
+            issue={
+                        Object {
+                                    "author": Object {
+                                      "avatarUrl": "avatarUrl",
+                                      "login": "username",
+                                      "url": "url",
+                                    },
+                                    "createdAt": "2018-05-19T09:07:23Z",
+                                    "id": "issueID",
+                                    "repository": Object {
+                                      "url": "repoUrl",
+                                    },
+                                    "title": "Issue title",
+                                  }
+            }
+/>,
+        },
+        "callbackList": null,
+        "capturedValues": null,
+        "expirationTime": 0,
+        "first": null,
+        "hasForceUpdate": false,
+        "isInitialized": true,
+        "isProcessing": false,
+        "last": null,
+      },
+    },
+    "sibling": null,
+    "stateNode": [Circular],
+    "tag": 2,
+    "type": [Function],
+    "updateQueue": null,
+  },
+  "_reactInternalInstance": Object {},
+  "context": Object {},
+  "props": Object {
+    "issue": Object {
+      "author": Object {
+        "avatarUrl": "avatarUrl",
+        "login": "username",
+        "url": "url",
+      },
+      "createdAt": "2018-05-19T09:07:23Z",
+      "id": "issueID",
+      "repository": Object {
+        "url": "repoUrl",
+      },
+      "title": "Issue title",
+    },
+  },
+  "refs": Object {},
+  "state": null,
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
+
+exports[`<ListItem /> should render <ListItem /> with full data 1`] = `
 ListItem {
   "_reactInternalFiber": FiberNode {
     "_debugID": 4,
@@ -38,7 +1046,44 @@ ListItem {
             "lineNumber": 12,
           },
           "alternate": null,
-          "child": null,
+          "child": FiberNode {
+            "_debugID": 11,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+              "lineNumber": 13,
+            },
+            "alternate": null,
+            "child": null,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "alt": "url",
+              "src": "avatarUrl",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "alt": "url",
+              "src": "avatarUrl",
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": null,
+            "stateNode": <img
+              src="avatarUrl"
+              alt="url"
+/>,
+            "tag": 5,
+            "type": "img",
+            "updateQueue": null,
+          },
           "effectTag": 0,
           "expirationTime": 0,
           "firstEffect": null,
@@ -46,25 +1091,221 @@ ListItem {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "alt": "url",
-            "src": "avatarUrl",
+            "children": <img
+              alt="url"
+              src="avatarUrl"
+/>,
+            "className": "ListImage",
+            "href": "url",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "alt": "url",
-            "src": "avatarUrl",
+            "children": <img
+              alt="url"
+              src="avatarUrl"
+/>,
+            "className": "ListImage",
+            "href": "url",
           },
           "ref": null,
           "return": [Circular],
-          "sibling": null,
-          "stateNode": <img
-            src="avatarUrl"
-            alt="url"
-/>,
+          "sibling": FiberNode {
+            "_debugID": 9,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+              "lineNumber": 15,
+            },
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 12,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+                "lineNumber": 16,
+              },
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "username",
+                "className": "ListLogin",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "username",
+                "className": "ListLogin",
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": FiberNode {
+                "_debugID": 13,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+                  "lineNumber": 18,
+                },
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "name",
+                  "className": "ListAuthorName",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "name",
+                  "className": "ListAuthorName",
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": null,
+                "stateNode": <div
+                  class="ListAuthorName"
+>
+                  name
+</div>,
+                "tag": 5,
+                "type": "div",
+                "updateQueue": null,
+              },
+              "stateNode": <div
+                class="ListLogin"
+>
+                username
+</div>,
+              "tag": 5,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 1,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <div
+                  className="ListLogin"
+>
+                  username
+</div>,
+                <div
+                  className="ListAuthorName"
+>
+                  name
+</div>,
+              ],
+              "className": "ListAuthor",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                <div
+                  className="ListLogin"
+>
+                  username
+</div>,
+                <div
+                  className="ListAuthorName"
+>
+                  name
+</div>,
+              ],
+              "className": "ListAuthor",
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": FiberNode {
+              "_debugID": 10,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
+                "lineNumber": 21,
+              },
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 2,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "Today at 11:07 AM",
+                "className": "ListDate",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "Today at 11:07 AM",
+                "className": "ListDate",
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": null,
+              "stateNode": <div
+                class="ListDate"
+>
+                Today at 11:07 AM
+</div>,
+              "tag": 5,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "stateNode": <div
+              class="ListAuthor"
+>
+              <div
+                            class="ListLogin"
+              >
+                            username
+              </div>
+              <div
+                            class="ListAuthorName"
+              >
+                            name
+              </div>
+</div>,
+            "tag": 5,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "stateNode": <a
+            href="url"
+            class="ListImage"
+>
+            <img
+                        src="avatarUrl"
+                        alt="url"
+            />
+</a>,
           "tag": 5,
-          "type": "img",
+          "type": "a",
           "updateQueue": null,
         },
         "effectTag": 0,
@@ -74,23 +1315,73 @@ ListItem {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
-          "children": <img
-            alt="url"
-            src="avatarUrl"
-/>,
-          "className": "ListImage",
-          "href": "url",
+          "children": Array [
+            <a
+              className="ListImage"
+              href="url"
+>
+              <img
+                            alt="url"
+                            src="avatarUrl"
+              />
+</a>,
+            <div
+              className="ListAuthor"
+>
+              <div
+                            className="ListLogin"
+              >
+                            username
+              </div>
+              <div
+                            className="ListAuthorName"
+              >
+                            name
+              </div>
+</div>,
+            <div
+              className="ListDate"
+>
+              Today at 11:07 AM
+</div>,
+          ],
+          "className": "ListHeader",
         },
         "memoizedState": null,
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
-          "children": <img
-            alt="url"
-            src="avatarUrl"
-/>,
-          "className": "ListImage",
-          "href": "url",
+          "children": Array [
+            <a
+              className="ListImage"
+              href="url"
+>
+              <img
+                            alt="url"
+                            src="avatarUrl"
+              />
+</a>,
+            <div
+              className="ListAuthor"
+>
+              <div
+                            className="ListLogin"
+              >
+                            username
+              </div>
+              <div
+                            className="ListAuthorName"
+              >
+                            name
+              </div>
+</div>,
+            <div
+              className="ListDate"
+>
+              Today at 11:07 AM
+</div>,
+          ],
+          "className": "ListHeader",
         },
         "ref": null,
         "return": [Circular],
@@ -100,16 +1391,16 @@ ListItem {
           "_debugOwner": [Circular],
           "_debugSource": Object {
             "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
-            "lineNumber": 14,
+            "lineNumber": 23,
           },
           "alternate": null,
           "child": FiberNode {
-            "_debugID": 9,
+            "_debugID": 14,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
-              "lineNumber": 15,
+              "lineNumber": 24,
             },
             "alternate": null,
             "child": null,
@@ -133,12 +1424,12 @@ ListItem {
             "ref": null,
             "return": [Circular],
             "sibling": FiberNode {
-              "_debugID": 10,
+              "_debugID": 15,
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
                 "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
-                "lineNumber": 16,
+                "lineNumber": 25,
               },
               "alternate": null,
               "child": null,
@@ -162,12 +1453,12 @@ ListItem {
               "ref": null,
               "return": [Circular],
               "sibling": FiberNode {
-                "_debugID": 11,
+                "_debugID": 16,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "/Users/ella/code/privat/tb/src/components/ListItem/ListItem.js",
-                  "lineNumber": 17,
+                  "lineNumber": 26,
                 },
                 "alternate": null,
                 "child": null,
@@ -178,26 +1469,29 @@ ListItem {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": "Today at 11:07 AM",
-                  "className": "ListDate",
+                  "children": "View repository",
+                  "className": "ListRepoLink",
+                  "href": "repoUrl",
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "children": "Today at 11:07 AM",
-                  "className": "ListDate",
+                  "children": "View repository",
+                  "className": "ListRepoLink",
+                  "href": "repoUrl",
                 },
                 "ref": null,
                 "return": [Circular],
                 "sibling": null,
-                "stateNode": <div
-                  class="ListDate"
+                "stateNode": <a
+                  href="repoUrl"
+                  class="ListRepoLink"
 >
-                  Today at 11:07 AM
-</div>,
+                  View repository
+</a>,
                 "tag": 5,
-                "type": "div",
+                "type": "a",
                 "updateQueue": null,
               },
               "stateNode": <div
@@ -236,11 +1530,12 @@ ListItem {
 >
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
 </div>,
-              <div
-                className="ListDate"
+              <a
+                className="ListRepoLink"
+                href="repoUrl"
 >
-                Today at 11:07 AM
-</div>,
+                View repository
+</a>,
             ],
             "className": "ListContent",
           },
@@ -259,11 +1554,12 @@ ListItem {
 >
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
 </div>,
-              <div
-                className="ListDate"
+              <a
+                className="ListRepoLink"
+                href="repoUrl"
 >
-                Today at 11:07 AM
-</div>,
+                View repository
+</a>,
             ],
             "className": "ListContent",
           },
@@ -283,27 +1579,51 @@ ListItem {
             >
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
             </div>
-            <div
-                        class="ListDate"
+            <a
+                        href="repoUrl"
+                        class="ListRepoLink"
             >
-                        Today at 11:07 AM
-            </div>
+                        View repository
+            </a>
 </div>,
           "tag": 5,
           "type": "div",
           "updateQueue": null,
         },
-        "stateNode": <a
-          href="url"
-          class="ListImage"
+        "stateNode": <div
+          class="ListHeader"
 >
-          <img
-                    src="avatarUrl"
-                    alt="url"
-          />
-</a>,
+          <a
+                    href="url"
+                    class="ListImage"
+          >
+                    <img
+                              src="avatarUrl"
+                              alt="url"
+                    />
+          </a>
+          <div
+                    class="ListAuthor"
+          >
+                    <div
+                              class="ListLogin"
+                    >
+                              username
+                    </div>
+                    <div
+                              class="ListAuthorName"
+                    >
+                              name
+                    </div>
+          </div>
+          <div
+                    class="ListDate"
+          >
+                    Today at 11:07 AM
+          </div>
+</div>,
         "tag": 5,
-        "type": "a",
+        "type": "div",
         "updateQueue": null,
       },
       "effectTag": 0,
@@ -314,15 +1634,38 @@ ListItem {
       "lastEffect": null,
       "memoizedProps": Object {
         "children": Array [
-          <a
-            className="ListImage"
-            href="url"
+          <div
+            className="ListHeader"
 >
-            <img
-                        alt="url"
-                        src="avatarUrl"
-            />
-</a>,
+            <a
+                        className="ListImage"
+                        href="url"
+            >
+                        <img
+                                    alt="url"
+                                    src="avatarUrl"
+                        />
+            </a>
+            <div
+                        className="ListAuthor"
+            >
+                        <div
+                                    className="ListLogin"
+                        >
+                                    username
+                        </div>
+                        <div
+                                    className="ListAuthorName"
+                        >
+                                    name
+                        </div>
+            </div>
+            <div
+                        className="ListDate"
+            >
+                        Today at 11:07 AM
+            </div>
+</div>,
           <div
             className="ListContent"
 >
@@ -336,11 +1679,12 @@ ListItem {
             >
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
             </div>
-            <div
-                        className="ListDate"
+            <a
+                        className="ListRepoLink"
+                        href="repoUrl"
             >
-                        Today at 11:07 AM
-            </div>
+                        View repository
+            </a>
 </div>,
         ],
         "className": "ListItem",
@@ -350,15 +1694,38 @@ ListItem {
       "nextEffect": null,
       "pendingProps": Object {
         "children": Array [
-          <a
-            className="ListImage"
-            href="url"
+          <div
+            className="ListHeader"
 >
-            <img
-                        alt="url"
-                        src="avatarUrl"
-            />
-</a>,
+            <a
+                        className="ListImage"
+                        href="url"
+            >
+                        <img
+                                    alt="url"
+                                    src="avatarUrl"
+                        />
+            </a>
+            <div
+                        className="ListAuthor"
+            >
+                        <div
+                                    className="ListLogin"
+                        >
+                                    username
+                        </div>
+                        <div
+                                    className="ListAuthorName"
+                        >
+                                    name
+                        </div>
+            </div>
+            <div
+                        className="ListDate"
+            >
+                        Today at 11:07 AM
+            </div>
+</div>,
           <div
             className="ListContent"
 >
@@ -372,11 +1739,12 @@ ListItem {
             >
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
             </div>
-            <div
-                        className="ListDate"
+            <a
+                        className="ListRepoLink"
+                        href="repoUrl"
             >
-                        Today at 11:07 AM
-            </div>
+                        View repository
+            </a>
 </div>,
         ],
         "className": "ListItem",
@@ -387,15 +1755,38 @@ ListItem {
       "stateNode": <div
         class="ListItem"
 >
-        <a
-                href="url"
-                class="ListImage"
+        <div
+                class="ListHeader"
         >
-                <img
-                        src="avatarUrl"
-                        alt="url"
-                />
-        </a>
+                <a
+                        href="url"
+                        class="ListImage"
+                >
+                        <img
+                                src="avatarUrl"
+                                alt="url"
+                        />
+                </a>
+                <div
+                        class="ListAuthor"
+                >
+                        <div
+                                class="ListLogin"
+                        >
+                                username
+                        </div>
+                        <div
+                                class="ListAuthorName"
+                        >
+                                name
+                        </div>
+                </div>
+                <div
+                        class="ListDate"
+                >
+                        Today at 11:07 AM
+                </div>
+        </div>
         <div
                 class="ListContent"
         >
@@ -409,11 +1800,12 @@ ListItem {
                 >
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
                 </div>
-                <div
-                        class="ListDate"
+                <a
+                        href="repoUrl"
+                        class="ListRepoLink"
                 >
-                        Today at 11:07 AM
-                </div>
+                        View repository
+                </a>
         </div>
 </div>,
       "tag": 5,
@@ -430,11 +1822,16 @@ ListItem {
       "issue": Object {
         "author": Object {
           "avatarUrl": "avatarUrl",
+          "login": "username",
+          "name": "name",
           "url": "url",
         },
         "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
         "createdAt": "2018-05-19T09:07:23Z",
         "id": "issueID",
+        "repository": Object {
+          "url": "repoUrl",
+        },
         "title": "Issue title",
       },
     },
@@ -445,11 +1842,16 @@ ListItem {
       "issue": Object {
         "author": Object {
           "avatarUrl": "avatarUrl",
+          "login": "username",
+          "name": "name",
           "url": "url",
         },
         "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
         "createdAt": "2018-05-19T09:07:23Z",
         "id": "issueID",
+        "repository": Object {
+          "url": "repoUrl",
+        },
         "title": "Issue title",
       },
     },
@@ -485,15 +1887,38 @@ ListItem {
             <div
                         class="ListItem"
             >
-                        <a
-                                    href="url"
-                                    class="ListImage"
+                        <div
+                                    class="ListHeader"
                         >
-                                    <img
-                                                src="avatarUrl"
-                                                alt="url"
-                                    />
-                        </a>
+                                    <a
+                                                href="url"
+                                                class="ListImage"
+                                    >
+                                                <img
+                                                            src="avatarUrl"
+                                                            alt="url"
+                                                />
+                                    </a>
+                                    <div
+                                                class="ListAuthor"
+                                    >
+                                                <div
+                                                            class="ListLogin"
+                                                >
+                                                            username
+                                                </div>
+                                                <div
+                                                            class="ListAuthorName"
+                                                >
+                                                            name
+                                                </div>
+                                    </div>
+                                    <div
+                                                class="ListDate"
+                                    >
+                                                Today at 11:07 AM
+                                    </div>
+                        </div>
                         <div
                                     class="ListContent"
                         >
@@ -507,11 +1932,12 @@ ListItem {
                                     >
                                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
                                     </div>
-                                    <div
-                                                class="ListDate"
+                                    <a
+                                                href="repoUrl"
+                                                class="ListRepoLink"
                                     >
-                                                Today at 11:07 AM
-                                    </div>
+                                                View repository
+                                    </a>
                         </div>
             </div>
 </div>,
@@ -546,11 +1972,16 @@ ListItem {
                                 Object {
                                                 "author": Object {
                                                   "avatarUrl": "avatarUrl",
+                                                  "login": "username",
+                                                  "name": "name",
                                                   "url": "url",
                                                 },
                                                 "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
                                                 "createdAt": "2018-05-19T09:07:23Z",
                                                 "id": "issueID",
+                                                "repository": Object {
+                                                  "url": "repoUrl",
+                                                },
                                                 "title": "Issue title",
                                               }
                 }
@@ -573,11 +2004,16 @@ ListItem {
                                 Object {
                                                 "author": Object {
                                                   "avatarUrl": "avatarUrl",
+                                                  "login": "username",
+                                                  "name": "name",
                                                   "url": "url",
                                                 },
                                                 "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
                                                 "createdAt": "2018-05-19T09:07:23Z",
                                                 "id": "issueID",
+                                                "repository": Object {
+                                                  "url": "repoUrl",
+                                                },
                                                 "title": "Issue title",
                                               }
                 }
@@ -600,11 +2036,16 @@ ListItem {
                     Object {
                               "author": Object {
                                 "avatarUrl": "avatarUrl",
+                                "login": "username",
+                                "name": "name",
                                 "url": "url",
                               },
                               "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
                               "createdAt": "2018-05-19T09:07:23Z",
                               "id": "issueID",
+                              "repository": Object {
+                                "url": "repoUrl",
+                              },
                               "title": "Issue title",
                             }
           }
@@ -621,15 +2062,38 @@ ListItem {
           <div
                     class="ListItem"
           >
-                    <a
-                              href="url"
-                              class="ListImage"
+                    <div
+                              class="ListHeader"
                     >
-                              <img
-                                        src="avatarUrl"
-                                        alt="url"
-                              />
-                    </a>
+                              <a
+                                        href="url"
+                                        class="ListImage"
+                              >
+                                        <img
+                                                  src="avatarUrl"
+                                                  alt="url"
+                                        />
+                              </a>
+                              <div
+                                        class="ListAuthor"
+                              >
+                                        <div
+                                                  class="ListLogin"
+                                        >
+                                                  username
+                                        </div>
+                                        <div
+                                                  class="ListAuthorName"
+                                        >
+                                                  name
+                                        </div>
+                              </div>
+                              <div
+                                        class="ListDate"
+                              >
+                                        Today at 11:07 AM
+                              </div>
+                    </div>
                     <div
                               class="ListContent"
                     >
@@ -643,11 +2107,12 @@ ListItem {
                               >
                                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
                               </div>
-                              <div
-                                        class="ListDate"
+                              <a
+                                        href="repoUrl"
+                                        class="ListRepoLink"
                               >
-                                        Today at 11:07 AM
-                              </div>
+                                        View repository
+                              </a>
                     </div>
           </div>
 </div>,
@@ -671,11 +2136,16 @@ ListItem {
                         Object {
                                     "author": Object {
                                       "avatarUrl": "avatarUrl",
+                                      "login": "username",
+                                      "name": "name",
                                       "url": "url",
                                     },
                                     "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
                                     "createdAt": "2018-05-19T09:07:23Z",
                                     "id": "issueID",
+                                    "repository": Object {
+                                      "url": "repoUrl",
+                                    },
                                     "title": "Issue title",
                                   }
             }
@@ -703,11 +2173,16 @@ ListItem {
     "issue": Object {
       "author": Object {
         "avatarUrl": "avatarUrl",
+        "login": "username",
+        "name": "name",
         "url": "url",
       },
       "bodyText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
       "createdAt": "2018-05-19T09:07:23Z",
       "id": "issueID",
+      "repository": Object {
+        "url": "repoUrl",
+      },
       "title": "Issue title",
     },
   },
