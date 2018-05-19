@@ -35,6 +35,7 @@ class List extends Component {
               }
             }
           `}
+          pollInterval={10000}
         >
           {({ loading, error, data }) => {
             if (loading) return <p>Loading...</p>
